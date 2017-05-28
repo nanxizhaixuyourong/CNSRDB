@@ -1,0 +1,606 @@
+/*设置通配符样式*/
+*{
+    margin:0; 
+    padding:0;
+}
+body{
+    font-size:12px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+
+form,h1,h2,h3,h4,ul,li,dl,dt,dd{margin:0;padding:0}
+body,div,td,th{font-family:Arial;font-size:14px}
+div{text-align:left}
+img{border:0}
+ul{list-style:none}
+.bg{background:#F6F6F6}
+.l{float:left}
+.r{float:right}
+.clear{clear:both;font-size:0;line-height:0;height:0;
+visibility:visible}
+.area2{width:771px;margin-left: auto; margin-right: auto;}
+.more{font-size:12px;font-weight:normal;padding-right:10px;
+float:right;
+background:url(http://img.baidu.com/img/baike/bgs1.gif) no-repeat right 3px;
+padding-right:8px;text-decoration:none;margin-top:3px}
+a.more:hover{text-decoration:underline}
+.title{text-decoration:none;color:#000}
+.box1,.box2{margin-top:10px}
+.box1 .r2_1,.box1 .r2_2,.box1 .r2_3,.box1 .r2_4,.box2
+ .r2_1,.box2 .r2_2,.box2 .r2_3,.box2 .r2_4{
+ display:block;width:8px;height:8px;overflow:hidden;
+ background:url(http://img.baidu.com/img/baike/bgs1.gif)}
+.box1 .r2_1{background-position:0 -365px}
+.box1 .r2_2{background-position:-8px -365px}
+.box1 .r2_3{background-position:0 -373px;margin-top:-8px}
+.box1 .r2_4{background-position:-8px -373px;margin-top:-8px}
+.box2 .r2_1{background-position:0 -391px}
+.box2 .r2_2{background-position:-8px -391px}
+.box2 .r2_3{background-position:0 -399px;margin-top:-8px}
+.box2 .r2_4{background-position:-8px -399px;margin-top:-8px}
+.box1 .brd{border:3px solid #dddfe1;background:#fff}
+.box2 .brd{border:3px solid #c7c7c7;background:#fff}
+.box1 h1,.box2 h1{font-size:14px;padding:5px 0 2px 15px;
+line-height:22px;border-bottom:1px solid #d4d4d4;
+background:url(http://img.baidu.com/img/baike/bgs2.gif) repeat-x 0 -88px}
+.box1 h1 div,.box2 h1 div{position:relative}
+.box1 h1 .more,.box2 h1 .more{position:absolute;
+right:10px;line-height:16px}
+.box3{width:380px;}
+.good_word{height:200px;padding:10px}
+
+
+
+/**/
+.nav001 {
+            width: 100%;
+            background-color:#b4b4b4;
+            float: right;
+}
+.nav001-denglu {
+            float: right;    display: block;   
+            background-color: #4a77d4;   
+            border: 1px solid #3762bc;   
+            padding: 5px 10px;   
+}
+
+/*设置图片和标题*/
+.tupian-biaoti {
+    width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:26.5px;
+}
+.site-icon {
+	width: 50px;
+}
+
+/*设置二级导航样式*/   
+.nav {
+    position: relative;
+    width:700px; 
+    height:30px;
+    background-color:#b4b4b4;
+    /*导航栏居中*/
+    margin:auto;
+    z-index: 999;
+}
+.nav ul li { 
+    width:100px; 
+    height:30px; 
+    float:left; 
+    position:relative;
+}
+.nav ul li a {
+    display:block;
+    width:96px; 
+    border:2px solid gray; 
+    height:26px; 
+    line-height:26px; 
+    text-align:center;
+}
+.nav ul li a:hover { 
+    background-color:yellow;
+}
+ 
+/*设置一级导航样式*/
+.nav ul li ul{
+    display:none;
+}
+.nav ul li:hover ul{
+    display:block;
+    width:100px;
+    position:absolute;
+    top:30px;
+    left:0;
+    background-color:white;
+}
+.nav ul li:hover ul li a{
+    display:block;
+    width:96px;
+    height:26px;
+    line-height:26px;
+    border:2px solid gray;
+    text-align:center;
+}
+.nav ul li:hover ul li a:hover{
+    background-color:orange;
+}
+ 
+/*设置三级导航样式*/
+.nav ul li:hover ul li ul { 
+    display:none;
+}
+.nav ul li:hover ul li:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:100px;
+    background-color:#b4b4b4;
+}
+.nav ul li:hover ul li:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav ul li:hover ul li:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav ul li:hover ul li:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+.nav ul li:hover ul .nav_jw ul { 
+    display:none;
+}
+.nav ul li:hover ul .nav_jw:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:-100px;
+    background-color:#b4b4b4;
+}
+.nav ul li:hover ul .nav_jw:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav ul li:hover ul .nav_jw:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav ul li:hover ul .nav_jw:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+
+
+/*针对学生*/
+/*设置二级导航样式*/   
+.nav-student {
+    position: relative;
+    width:1000px; 
+    height:30px;
+    background-color:#b4b4b4;
+    /*导航栏居中*/
+    margin:auto;
+    z-index: 999;
+}
+.nav-student ul li { 
+    width:100px; 
+    height:30px; 
+    float:left; 
+    position:relative;
+}
+.nav-student ul li a {
+    display:block;
+    width:96px; 
+    border:2px solid gray; 
+    height:26px; 
+    line-height:26px; 
+    text-align:center;
+}
+.nav-student ul li a:hover { 
+    background-color:yellow;
+}
+ 
+/*设置一级导航样式*/
+.nav-student ul li ul{
+    display:none;
+}
+.nav-student ul li:hover ul{
+    display:block;
+    width:100px;
+    position:absolute;
+    top:30px;
+    left:0;
+    background-color:white;
+}
+.nav-student ul li:hover ul li a{
+    display:block;
+    width:96px;
+    height:26px;
+    line-height:26px;
+    border:2px solid gray;
+    text-align:center;
+}
+.nav-student ul li:hover ul li a:hover{
+    background-color:orange;
+}
+ 
+/*设置三级导航样式*/
+.nav-student ul li:hover ul li ul { 
+    display:none;
+}
+.nav-student ul li:hover ul li:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:100px;
+    background-color:#b4b4b4;
+}
+.nav-student ul li:hover ul li:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-student ul li:hover ul li:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-student ul li:hover ul li:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+.nav ul li:hover ul .nav_jw ul { 
+    display:none;
+}
+.nav-student ul li:hover ul .nav_jw:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:-100px;
+    background-color:#b4b4b4;
+}
+.nav-student ul li:hover ul .nav_jw:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-student ul li:hover ul .nav_jw:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-student ul li:hover ul .nav_jw:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+
+/*针对老师*/
+/*设置二级导航样式*/   
+.nav-teacher {
+    position: relative;
+    width:1000px; 
+    height:30px;
+    background-color:#b4b4b4;
+    /*导航栏居中*/
+    margin:auto;
+    z-index: 999;
+}
+.nav-teacher ul li { 
+    width:100px; 
+    height:30px; 
+    float:left; 
+    position:relative;
+}
+.nav-teacher ul li a {
+    display:block;
+    width:96px; 
+    border:2px solid gray; 
+    height:26px; 
+    line-height:26px; 
+    text-align:center;
+}
+.nav-teacher ul li a:hover { 
+    background-color:yellow;
+}
+ 
+/*设置一级导航样式*/
+.nav-teacher ul li ul{
+    display:none;
+}
+.nav-teacher ul li:hover ul{
+    display:block;
+    width:100px;
+    position:absolute;
+    top:30px;
+    left:0;
+    background-color:white;
+}
+.nav-teacher ul li:hover ul li a{
+    display:block;
+    width:96px;
+    height:26px;
+    line-height:26px;
+    border:2px solid gray;
+    text-align:center;
+}
+.nav-teacher ul li:hover ul li a:hover{
+    background-color:orange;
+}
+ 
+/*设置三级导航样式*/
+.nav-teacher ul li:hover ul li ul { 
+    display:none;
+}
+.nav-teacher ul li:hover ul li:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:100px;
+    background-color:#b4b4b4;
+}
+.nav-teacher ul li:hover ul li:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-teacher ul li:hover ul li:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-teacher ul li:hover ul li:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+.nav-teacher ul li:hover ul .nav_jw ul { 
+    display:none;
+}
+.nav-teacher ul li:hover ul .nav_jw:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:-100px;
+    background-color:#b4b4b4;
+}
+.nav-teacher ul li:hover ul .nav_jw:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-teacher ul li:hover ul .nav_jw:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-teacher ul li:hover ul .nav_jw:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+
+/*针对管理员*/
+/*设置二级导航样式*/   
+.nav-adm {
+    position: relative;
+    width:1000px; 
+    height:30px;
+    background-color:#b4b4b4;
+    /*导航栏居中*/
+    margin:auto;
+    z-index: 999;
+}
+.nav-adm ul li { 
+    width:100px; 
+    height:30px; 
+    float:left; 
+    position:relative;
+}
+.nav-adm ul li a {
+    display:block;
+    width:96px; 
+    border:2px solid gray; 
+    height:26px; 
+    line-height:26px; 
+    text-align:center;
+}
+.nav-adm ul li a:hover { 
+    background-color:yellow;
+}
+ 
+/*设置一级导航样式*/
+.nav-adm ul li ul{
+    display:none;
+}
+.nav-adm ul li:hover ul{
+    display:block;
+    width:100px;
+    position:absolute;
+    top:30px;
+    left:0;
+    background-color:white;
+}
+.nav-adm ul li:hover ul li a{
+    display:block;
+    width:96px;
+    height:26px;
+    line-height:26px;
+    border:2px solid gray;
+    text-align:center;
+}
+.nav-adm ul li:hover ul li a:hover{
+    background-color:orange;
+}
+ 
+/*设置三级导航样式*/
+.nav-adm ul li:hover ul li ul { 
+    display:none;
+}
+.nav-adm ul li:hover ul li:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:100px;
+    background-color:#b4b4b4;
+}
+.nav-adm ul li:hover ul li:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-adm ul li:hover ul li:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-adm ul li:hover ul li:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+.nav-adm ul li:hover ul .nav_jw ul { 
+    display:none;
+}
+.nav-adm ul li:hover ul .nav_jw:hover ul{ 
+    display:block; 
+    width:100px; 
+    position:absolute; 
+    top:0px; 
+    left:-100px;
+    background-color:#b4b4b4;
+}
+.nav-adm ul li:hover ul .nav_jw:hover ul li { 
+    width:100px; 
+    height:30px; 
+}
+.nav-adm ul li:hover ul .nav_jw:hover ul li a { 
+    display:block; 
+    width:96px; 
+    height:26px; 
+    line-height:26px; 
+    border:2px solid gray; 
+    text-align:center; 
+}
+.nav-adm ul li:hover ul .nav_jw:hover ul li a:hover { 
+    background-color:#00CC00;
+}
+
+
+
+.yejiao {
+    position: relative;
+    width: 1000px;
+    margin-top: 30px; 
+    margin-left:auto;
+    margin-right:auto;
+    background: #E5E5E5
+}
+
+
+.wenzikuang {
+    font-size: 30px;
+    position: relative;
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}<br />
+table.imagetable th {
+	background:#b5cfd2 url('cell-blue.jpg');
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	background:#dcddc0 url('cell-grey.jpg');
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+.centerdiv {
+    width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.box10{
+    margin: 20px auto;
+    width: 1000px;
+    min-height: 310px;
+    padding: 10px;
+    position:relative;
+    background: -webkit-gradient(linear, 100% 100%, 50% 10%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 1px 1px 4px rgba(0,0,0, 0.1);
+    -webkit-border-bottom-right-radius: 60px 5px;
+    
+}
+.box10:before{
+    content: '';
+    width: 98%;
+    z-index:-1;
+    height: 100%;
+    padding: 0 0 1px 0;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f9f9f9), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0, 0.1);
+    -webkit-border-bottom-right-radius: 60px 5px;
+    -webkit-transform: skew(2deg,2deg)
+                        translate(3px,8px)
+}
+.box10:after{
+    content: '';
+    width: 98%;
+    z-index:-1;
+    height: 98%;
+    padding: 0 0 1px 0;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#f3f3f3), to(#f6f6f6), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0, 0.1);
+    -webkit-transform: skew(2deg,2deg)
+                        translate(-1px,2px)
+}
+
+.box10 img {
+    width: 100%;
+    margin-top: 15px;
+}
